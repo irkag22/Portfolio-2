@@ -1,10 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/header";
 import AboutMe from "./components/aboutMe";
 import Footer from "./components/footer";
-import { useState } from "react";
 import Portfolio from "./components/portfolio";
+import Resume from "./components/resume";
+import Contact from "./components/contact";
+import { useState } from "react";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
