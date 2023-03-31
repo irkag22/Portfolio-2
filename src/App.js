@@ -7,18 +7,21 @@ import { useState } from "react";
 import Portfolio from "./components/portfolio";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Portfolio");
+  const [currentPage, setCurrentPage] = useState("About");
   function renderPage() {
     if (currentPage === "About") {
       return <AboutMe />;
     } else if (currentPage === "Portfolio") {
       return <Portfolio />;
+    } else if (currentPage === "Resume") {
+      return <Resume />;
+    } else if (currentPage === "Contact") {
+      return <Contact />;
     }
   }
   return (
     <div className="App">
-      <Header setCurrentPage={setCurrentPage}/>
-
+      <Header setCurrentPage={setCurrentPage} />
       {renderPage()}
       <Footer />
     </div>
