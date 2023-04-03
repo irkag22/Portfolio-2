@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%20//irkag22.github.io/Portfolio-2/static/css/main.756af292.css",
+    "main.js": "/%20//irkag22.github.io/Portfolio-2/static/js/main.b32592eb.js",
+    "static/js/787.1ed0c42c.chunk.js": "/%20//irkag22.github.io/Portfolio-2/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/%20//irkag22.github.io/Portfolio-2/index.html",
+    "main.756af292.css.map": "/%20//irkag22.github.io/Portfolio-2/static/css/main.756af292.css.map",
+    "main.b32592eb.js.map": "/%20//irkag22.github.io/Portfolio-2/static/js/main.b32592eb.js.map",
+    "787.1ed0c42c.chunk.js.map": "/%20//irkag22.github.io/Portfolio-2/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756af292.css",
+    "static/js/main.b32592eb.js"
+  ]
+}
